@@ -1,6 +1,15 @@
 # SDL2 Lua CMake Template
 
 # 1. Introduction
+Boilerplate code for small projects that need graphics with easy extendibility. Here it is done with
+the `Lua` scripting language.
+The underlying graphics library is `SDL2`, which makes the project written in C. 
+This is also the chosen language since the `Lua` *VM* has a clean and powerful C API,
+which was a language design goal. `Lua` was made to be embedded and further the capabilities of
+a language such as `C`. The project would be maintained by a portable build system like CMake. Many thanks
+for the inspiring work from [here](https://github.com/klassmann/sdl2-lua53-example).
+
+![screen](.imgs/screen.png)
 
 # 2. Dependencies
 1. `CMake`
